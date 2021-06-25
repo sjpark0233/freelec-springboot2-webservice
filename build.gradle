@@ -33,5 +33,5 @@ dependencies {
     testCompile('org.projectlombok:lombok')
     annotationProcessor('org.projectlombok:lombok')
     testAnnotationProcessor('org.projectlombok:lombok')
-    runtime('com.h2database:h2')
+    runtimeOnly('com.h2database:h2')
 }
